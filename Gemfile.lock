@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    corruption_monkey (0.1.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.9.0)
+    rake (11.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  corruption_monkey!
+  minitest
+  rake
+
+BUNDLED WITH
+   1.12.5
