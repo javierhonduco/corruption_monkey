@@ -1,7 +1,6 @@
 require 'logger'
 
 module BitFlipper
-
   BitOutOfBounds = Class.new(Exception)
 
   def self.flip!(target, bit:, logger: Logger.new(nil))
@@ -39,7 +38,7 @@ module BitFlipper
 
   def self.flip_in_range(target, percentile:, logger: Logger.new(nil))
     # TODO(javierhonduco): Improve error checking (╯ರ ~ ರ)
-    bit_to_flip = (size_in_bits(target) * percentile/101.0).to_i
+    bit_to_flip = (size_in_bits(target) * percentile / 101.0).to_i
 
     if out_of_range(target, bit_to_flip)
       raise IndexError, "percentile=#{percentile} not in range"

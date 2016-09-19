@@ -1,7 +1,7 @@
 require 'corruption_monkey'
 
 module BitFlipper::CLI
-  DOCS = <<-DOCS
+  DOCS = <<-DOCS.freeze
   CLI options:
 
     1. Specific bit flip (by absolute or relative indexing)
@@ -27,7 +27,7 @@ module BitFlipper::CLI
 
     # Empty imput or docs request
     if (file_path.nil? && second_argument.nil?) ||
-        (!File.file?(file_path) && file_path == 'help')
+       (!File.file?(file_path) && file_path == 'help')
       puts DOCS
       exit 0
     end

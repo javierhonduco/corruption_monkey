@@ -6,7 +6,7 @@ require_relative 'test_helpers'
 class TestBitFlipper < Minitest::Test
   include TestHelpers
 
-  TEST_DIR = "/tmp/bit_flipper_monkey_test_#{rand(0..999)}"
+  TEST_DIR = '/tmp/bit_flipper_monkey_test'.freeze
 
   def setup
     FileUtils.rm_rf(TEST_DIR) # Ensure clean state
