@@ -1,4 +1,4 @@
-### Corruption monkey [![Build Status](https://travis-ci.org/Shopify/corruption_monkey.svg?branch=master)](https://travis-ci.org/Shopify/corruption_monkey) [![Gem Version](https://badge.fury.io/rb/corruption_monkey.svg)](http://badge.fury.io/rb/corruption_monkey)
+### Corruption monkey [![Build Status](https://travis-ci.org/javierhonduco/corruption_monkey.svg?branch=master)](https://travis-ci.org/javierhonduco/corruption_monkey) [![Gem Version](https://badge.fury.io/rb/corruption_monkey.svg)](http://badge.fury.io/rb/corruption_monkey)
 
 TL;DR: do 🔬  with backups (and 🐒)
 
